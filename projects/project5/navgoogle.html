@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> nav bar by google </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            /* Flexbox container */
+            justify-content: space-between;
+            /* Spacing between logo, links, search */
+            align-items: center;
+            /* Vertically center items */
+            background-color: #f8f9fa;
+            /* Light gray UI background */
+            padding: 10px 20px;
+            border-bottom: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .nav-links {
+            display: flex;
+            /* Flexbox for the links */
+            list-style: none;
+            gap: 15px;
+            /* Spacing between items */
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+        }
+
+        .nav-links a:hover {
+            background-color: #e0e0e0;
+            border-radius: 4px;
+        }
+
+        .search-box input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">UltraEdit</div>
+        <ul class="nav-links">
+            <li><a href="#">File</a></li>
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">View</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+        </div>
+    </nav>
+
+
+</body>
+
+</html>
