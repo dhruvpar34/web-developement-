@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/netflix\ background\ image.jpg);
+    height: 130vh;
+}
+
+.logo {
+    height: 54px;
+    filter: brightness(0) saturate(100%) invert(12%) sepia(99%) saturate(6000%) hue-rotate(350deg) brightness(90%);
+    width: 166px;
+    height: auto;
+    position: relative;
+    left: 122px;
+    top: 14px;
+    font-family: sans-serif;
+
+}
+
+.main1.netflix {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+    background-color: black;
+}
+
+.main1 nav .button {
+    display: flex;
+    border: 1px solid black;
+    position: relative;
+    left: 68pc;
+    top: -41px;
+    height: 32px;
+    width: 75px;
+    color: white;
+    background-color: #e50914;
+    border-radius: 6px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main1 nav .button1 {
+    display: flex;
+    border: 1px solid white;
+    position: relative;
+    left: 53pc;
+    top: -106px;
+    background-color: black;
+    padding: 10px;
+    margin: 29px;
+    min-width: auto;
+    height: 16px;
+    width: 177px;
+    border-radius: 4px;
+}
+
+
+.main1 nav .button1 #lang {
+    border: none;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+.main1 .box {
+    height: 234px;
+    margin: 52px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main1 .box4 .email {
+    position: relative;
+    bottom: 42px;
+    left: 26pc;
+    height: 50px;
+    align-items: start;
+    display: flex;
+    justify-content: left;
+    width: 21pc;
+    background-color: black;
+    color: white;
+    border-radius: 7px
+}
+
+.main1 .box5 button {
+    position: relative;
+    left: 48pc;
+    bottom: 90px;
+    height: 44px;
+    width: 10pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 6px;
+}
